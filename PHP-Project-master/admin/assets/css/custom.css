@@ -1,0 +1,72 @@
+.nopaddingdiv{
+    padding: 0px;
+}
+.moreitemslink{
+    float: left;
+    width: 100%;
+}    
+.addiconforitem{
+    color: #357CA5;
+    font-weight: bold;
+}    
+.moreitemslink a{
+    color: #357CA5;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.itemdetailsdiv,
+.itemwiselist{
+    float: left;
+    width: 100%;
+}
+.removeitem{    
+    float: left;
+    margin-top: 5px;
+}
+.removeitem:hover{
+    cursor: pointer;
+}
+.totalamount{
+    border-top: 1px solid #d2d6de;        
+    margin-top: 15px;
+    float: left;
+    width: 100%;
+}    
+.adjustmargin{
+    margin-bottom: 0px;
+    margin-top: 5px;
+} 
+.sellerpart .box-header.with-border,
+.buyerpart .box-header.with-border,
+.bitcoinpart .box-header.with-border,
+.amzonmanagerpart .box-header.with-border,
+.shippingpart .box-header.with-border{
+    border-bottom: 1px solid #d2d6de;
+}
+.amountvalue{
+   border: none;
+   padding-left: 0px;
+}
+.itemimg{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.subtotaldiv .adjustmargin .form-control{
+    padding: 0px 8px 0px 8px;
+}
+.shippingpart .sameasbuyeraddress{
+    float: right;
+}
+.shippingpart .shippingtitle{
+    float: left;
+}
+.shippingpart .sameasbuyeraddress .sameaddress{
+    margin: 4px 3px 0px 0px;
+    float: left;
+}
+.itemdetailsdiv .itemwiselist #iQuantity{
+    padding: 3px 5px;
+}
+input.error {            
+    border: 1px solid #f00 !important;        
+}
